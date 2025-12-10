@@ -1,0 +1,989 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+@media(max-width:1024px){
+    .container{
+        ul{
+            list-style-type: none; 
+        }
+        h1{
+            position: absolute;
+            font-size: 50px;
+            top: 1%;
+            left: 1%;
+            background-color: black;
+            
+        }
+        #h2{
+            position: absolute;
+            font-size: 50px;
+            top: 6%;
+            left: 1%;
+            
+
+        }
+        #foto_perfiel{
+            position: absolute;
+            width: 230px ;
+            height: 230px;
+            left: 30%;
+            top: 18%;
+
+        }
+        .card {
+            position: absolute;
+            left: 0%;
+            width: 100%;
+            top: 40%;
+        }
+        #Programador{
+            position: absolute;
+            font-size: 20px;
+            left: 33%;
+            top: 36%;
+        }
+        #w{
+            position: absolute;
+            left: 1%;
+            top: 50%;
+
+        }
+        #gmail{
+            position: absolute;
+            left: 1%;
+            top: 57%;
+        }
+        #y{
+            position: absolute;
+            left: 1%;
+            top: 64%;
+        }
+        #derechos{
+                color: rgb(226, 226, 226);
+                font-size: 100%;
+                position: absolute;
+                left: 30%;
+                top: 100%;
+                }
+        #lista{
+                position: absolute;
+                color: aliceblue;
+                background-color: rgba(0,0,0,0.5);
+                left: 49%;
+                top: 42%;
+                font-size: 18px;
+                width: 350px;
+                background-color: rgba(0,0,0,0.60);
+                
+                }
+        .contactos{
+                position: absolute;
+                color: aliceblue;
+                top: 48%;
+                left: 1%;
+                }
+        
+    }
+}
+@media(max-width:700px){
+    .container{
+        ul{
+            list-style-type: none; 
+        }
+        h1{
+            position: absolute;
+            font-size: 50px;
+            top: 1%;
+            left: none;
+            background-color: black;
+            
+        }
+        #h2{
+            position: absolute;
+            font-size: 50px;
+            top: 6%;
+            right: 1%;
+            
+
+        }
+        #foto_perfiel{
+            position: absolute;
+            width: 180px ;
+            height: 180px;
+            left: 30%;
+            top: 25%;
+
+        }
+        .card {
+            position: absolute;
+            left: 0%;
+            width: 100%;
+            top: 48%;
+        }
+        #Programador{
+            position: absolute;
+            font-size: 20px;
+            left: 30%;
+            top: 45%;
+        }
+        #w{
+            position: absolute;
+            left: 1%;
+            top: 68%;
+
+        }
+        #gmail{
+            position: absolute;
+            left: 1%;
+            top: 77%;
+        }
+        #y{
+            position: absolute;
+            left: 1%;
+            top: 86%;
+        }
+        #derechos{
+                color: rgb(0, 0, 0);
+                font-size: 100%;
+                position: absolute;
+                left: 20%;
+                top: 98%;
+                }
+        #lista{
+                position: absolute;
+                color: aliceblue;
+                background-color: rgba(0,0,0,0.5);
+                left: 46%;
+                top: 55%;
+                font-size: 18px;
+                width: 230px;
+                background-color: rgba(0,0,0,0.60);
+                
+                }
+        .contactos{
+                position: absolute;
+                color: aliceblue;
+                top: 64%;
+                left: 1%;
+                }
+        
+    }
+    
+}
+@media(max-width:500px){
+    .container{
+
+        ul{
+            list-style-type: none; 
+        }
+        h1{
+            position: absolute;
+            font-size: 30px;
+            top: 38%;
+            left:30% ;
+            background-color: black;
+            
+        }
+        #h2{
+            position: absolute;
+            font-size: 30px;
+            top: 1%;
+            left: 20%;
+            
+
+        }
+        #foto_perfiel{
+            position: absolute;
+            width: 180px ;
+            height: 180px;
+            left: 26%;
+            top: 14%;
+
+        }
+        .card {
+            position: absolute;
+            left: 0%;
+            width: 200%;
+            top: 46%;
+        }
+        #Programador{
+            position: absolute;
+            font-size: 20px;
+            left: 28%;
+            top: 43%;
+        }
+        #w{
+            position: absolute;
+            left: 1%;
+            top: 68%;
+
+        }
+        #gmail{
+            position: absolute;
+            left: 1%;
+            top: 77%;
+        }
+        #y{
+            position: absolute;
+            left: 1%;
+            top: 86%;
+        }
+        #derechos{
+                color: rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
+                font-size: 100%;
+                width: 100%;
+                position: absolute;
+                text-align: center;
+                left: 1%;
+                top: 109%;
+                }
+        #lista{
+                position: absolute;
+                color: aliceblue;
+                background-color: rgba(0,0,0,0.5);
+                left: 35%;
+                top: 55%;
+                font-size: 18px;
+                width: 270px;
+                background-color: rgba(0,0,0,0.60);
+                
+                }
+        .contactos{
+                position: absolute;
+                color: aliceblue;
+                top: 64%;
+                left: 1%;
+                }
+        
+    }
+}
+@media(max-width:390px){
+    .container{
+        
+        ul{
+            list-style-type: none; 
+        }
+        
+        h1{
+            position: absolute;
+            font-size:20px;
+            top: 40%;
+            left:30% ;
+            background-color: black;
+            
+        }
+        #h2{
+            position: absolute;
+            font-size: 28px;
+            top: 1%;
+            left: 20%;
+            
+
+        }
+        #foto_perfiel{
+            position: absolute;
+            width: 150px ;
+            height: 150px;
+            left: 23%;
+            top: 16%;
+
+        }
+        .card {
+            position: absolute;
+            width: 200%;
+            top: 46%;
+        }
+        #Programador{
+            position: absolute;
+            font-size: 20px;
+            left: 20%;
+            top: 44%;
+        }
+        #w{
+            position: absolute;
+            left: 1%;
+            top: 68%;
+
+        }
+        #gmail{
+            position: absolute;
+            left: 1%;
+            top: 79%;
+        }
+        #y{
+            position: absolute;
+            left: 1%;
+            top: 90%;
+        }
+        #derechos{
+                color:white;
+                background-color: rgb(0, 0, 0);
+                width: 100%;
+                text-align: center;
+                font-size: 100%;
+                position: absolute;
+                left: 1%;
+                top: 130%;
+                }
+        #lista{
+                position: absolute;
+                color: aliceblue;
+                background-color: rgba(0,0,0,0.5);
+                left: 46%;
+                top: 55%;
+                font-size: 18px;
+                width: 160px;
+                background-color: rgba(0,0,0,0.60);
+                
+                }
+        .contactos{
+                position: absolute;
+                color: aliceblue;
+                top: 64%;
+                left: 1%;
+                }
+        
+    }
+}
+
+ul{
+list-style-type: none; 
+}
+body{
+  background-color: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-image:url(imagenes/gato.jpg) ;
+    width:100%;
+    height: 989px;
+
+}
+.tem{
+  flex-grow: 1;
+  flex-basis: 200;
+}
+.contactos{
+    position: absolute;
+    color: aliceblue;
+    top: 62%;
+    left: 70%;
+}
+
+#Programador{
+    color: aliceblue;
+    left: 74%;
+    top: 53%;
+    position: absolute;
+}
+
+#foto_perfiel{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+}
+
+h1{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 140px;
+    color: aliceblue;
+    left:20% ;
+    top: 10%;
+}
+#h2{
+    position: absolute;
+    font-size: 60px;
+    color: aliceblue;
+    left: 20%;
+    top: 26%;
+}
+#lista{
+    position: absolute;
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.60);
+    left: 16%;
+    top: 54%;
+    font-size: 18px;
+}
+#derechos{
+    color: aliceblue;
+    position: absolute;
+    left: 45%;
+    top: 98%;
+}
+
+#w{
+    position: absolute;
+    left: 70%;
+    top: 65%;
+}
+#gmail{
+    position: absolute;
+    left: 70%;
+    top: 73%;
+}
+#y{
+    position: absolute;
+    left: 70%;
+    top: 80%;
+}
+@media(max-width:300px){
+    .container{
+        
+        ul{
+            list-style-type: none; 
+        }
+        
+        h1{
+            position: absolute;
+            font-size:15px;
+            top: 33%;
+            left:35% ;
+            background-color: black;
+            
+        }
+        #h2{
+            position: absolute;
+            font-size: 28px;
+            top: 1%;
+            left: 20%;
+            
+
+        }
+        #foto_perfiel{
+            position: absolute;
+            width: 130px ;
+            height: 130px;
+            left: 23%;
+            top: 14%;
+
+        }
+        .card {
+            position: absolute;
+            width: 200%;
+            top: 46%;
+            
+        }
+        
+        #Programador{
+            position: absolute;
+            font-size: 20px;
+            left: 20%;
+            top: 38%;
+        }
+        #w{
+            position: absolute;
+            left: 1%;
+            top: 68%;
+
+        }
+        #gmail{
+            position: absolute;
+            left: 1%;
+            top: 77%;
+        }
+        #y{
+            position: absolute;
+            left: 1%;
+            top: 86%;
+        }
+        #derechos{
+                color:white;
+                background-color: rgb(0, 0, 0);
+                width: 100%;
+                text-align: center;
+                font-size: 100%;
+                position: absolute;
+                left: 1%;
+                top: 133%;
+                }
+        #lista{
+                position: absolute;
+                color: aliceblue;
+                background-color: rgba(0,0,0,0.5);
+                left: 49%;
+                top: 55%;
+                font-size: 18px;
+                width: 128px;
+                height: 1000px;
+                background-color: rgba(0,0,0,0.60);
+                
+                }
+        .contactos{
+                position: absolute;
+                color: aliceblue;
+                top: 64%;
+                left: 1%;
+                }
+        
+    }
+}
+
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 0.9s both;
+	animation: jello-horizontal 0.9s both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2025-12-8 21:28:28
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation jello-horizontal
+ * ----------------------------------------
+ */
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+
+/* From Uiverse.io by kennyotsu */ 
+.card {
+  /* color used to softly clip top and bottom of the .words container */
+  position: absolute;
+  background-color: var(--bg-color);
+  padding: 1rem 2rem;
+  border-radius: 1.25rem;
+  width: 50%;
+  left: 15%;
+  top: 46%;
+}
+.loader {
+  color: rgb(124, 124, 124);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 40px;
+  padding: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+}
+
+.words {
+  overflow: hidden;
+  position: relative;
+}
+.words::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    var(--bg-color) 10%,
+    transparent 30%,
+    transparent 70%,
+    var(--bg-color) 90%
+  );
+  z-index: 20;
+}
+
+.word {
+  display: block;
+  height: 100%;
+  padding-left: 6px;
+  color: white;
+  animation: spin_4991 4s infinite;
+}
+
+@keyframes spin_4991 {
+  10% {
+    -webkit-transform: translateY(-102%);
+    transform: translateY(-102%);
+  }
+
+  25% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  35% {
+    -webkit-transform: translateY(-202%);
+    transform: translateY(-202%);
+  }
+
+  50% {
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%);
+  }
+
+  60% {
+    -webkit-transform: translateY(-302%);
+    transform: translateY(-302%);
+  }
+
+  75% {
+    -webkit-transform: translateY(-300%);
+    transform: translateY(-300%);
+  }
+
+  85% {
+    -webkit-transform: translateY(-402%);
+    transform: translateY(-402%);
+  }
+
+  100% {
+    -webkit-transform: translateY(-400%);
+    transform: translateY(-400%);
+  }
+}
+
+.text-flicker-in-glow {
+	-webkit-animation: text-flicker-in-glow 4s linear both;
+    animation: text-flicker-in-glow 4s linear both;
+}
+
+@-webkit-keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+@keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+}
+55.1% {
+    opacity: 0;
+    text-shadow: none;
+}
+57% {
+    opacity: 0;
+    text-shadow: none;
+}
+57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+}
+60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+}
+60.1% {
+    opacity: 0;
+    text-shadow: none;
+}
+65% {
+    opacity: 0;
+    text-shadow: none;
+}
+65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+}
+75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+}
+75.1% {
+    opacity: 0;
+    text-shadow: none;
+}
+77% {
+    opacity: 0;
+    text-shadow: none;
+}
+77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+}
+85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+}
+85.1% {
+    opacity: 0;
+    text-shadow: none;
+}
+86% {
+    opacity: 0;
+    text-shadow: none;
+}
+86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+}
+100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+}
+}
+
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+}
+100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+}
+}
+@keyframes text-focus-in {
+0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+}
+100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+}
+}
